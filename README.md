@@ -1,6 +1,6 @@
 # Unofficial RG2 Gripper URDF Model for ROS and Gazebo Simulation
 
-## Running The Simulation
+## Running The Simulation Model
 
 This package requires Gazebo MimicJointPlugin from this repo https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.
 
@@ -10,6 +10,7 @@ This package requires Gazebo MimicJointPlugin from this repo https://github.com/
 mkdir -p rg2_ws/src
 cd rg2_ws/src
 git clone https://github.com/ekorudiawan/rg2_simulation.git
+B
 git clone https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.git
 cd ../
 catkin_make
